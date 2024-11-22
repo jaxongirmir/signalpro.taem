@@ -84,6 +84,9 @@ button {
 	color: #fff;
 	font-size: 20px;
 	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 @media (max-width: 1038px) {
 	.container {
