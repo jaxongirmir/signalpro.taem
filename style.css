@@ -2,7 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Bebas Neue', sans-serif;
+	/* font-family: 'Bebas Neue', sans-serif; */
+	font-family: sans-serif;
 }
 @font-face {
 	font-family: 'Bebas Neue';
@@ -119,57 +120,53 @@ button {
 	input {
 		width: 100%;
 	}
+	h1 {
+		font-size: 30px;
+	}
 }
 @media (max-width: 634px) {
 	h1 {
-		font-size: 40px;
+		font-size: 25px;
 	}
 	.container {
 		padding: 30% 0;
 	}
 }
-@media (max-width: 520px) {
+@media (max-width: 540px) {
 	h1 {
-		font-size: 36px;
-		letter-spacing: -1px;
+		font-size: 20px;
 	}
 }
+
 @media (max-width: 454px) {
 	h1 {
-		font-size: 32px;
+		font-size: 18px;
 	}
 	.container {
 		padding: 40% 0;
 	}
 }
-@media (max-width: 420px) {
-	h1 {
-		font-size: 30;
-	}
-}
+
 @media (max-width: 400px) {
-	h1 {
-		font-size: 27px;
-	}
 	.container {
 		padding: 47% 0;
 	}
 }
-@media (max-width: 386px) {
+@media (max-width: 400px) {
 	h1 {
-		font-size: 24px;
+		font-size: 16px;
 	}
 }
 @media (max-width: 364px) {
 	h1 {
-		font-size: 21px;
+		font-size: 14px;
 	}
 	.input-container {
 		width: 70%;
 	}
 }
 
-@media (max-width: 316px) {
+/* @media (max-width: 316px) {
 	h1 {
 		font-size: 22px;
 	}
@@ -178,4 +175,4 @@ button {
 	h1 {
 		font-size: 20px;
 	}
-}
+} */
