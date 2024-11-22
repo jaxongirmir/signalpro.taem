@@ -141,9 +141,14 @@ button {
 		padding: 40% 0;
 	}
 }
+@media (max-width: 420px) {
+	h1 {
+		font-size: 30;
+	}
+}
 @media (max-width: 400px) {
 	h1 {
-		font-size: 30px;
+		font-size: 27px;
 	}
 	.container {
 		padding: 47% 0;
@@ -151,12 +156,12 @@ button {
 }
 @media (max-width: 386px) {
 	h1 {
-		font-size: 28px;
+		font-size: 24px;
 	}
 }
 @media (max-width: 364px) {
 	h1 {
-		font-size: 25px;
+		font-size: 21px;
 	}
 	.input-container {
 		width: 70%;
