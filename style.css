@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Bebas Neue', sans-serif;
+}
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('./fonts/ofont.ru_Bebas\ Neue.ttf');
+}
+
+body {
+	/* background: url('./images/bg_image.jpg') top center/cover; */
+	width: 100%;
+	height: 100dvh;
+	/*	color: #fd7c26;
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: top;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+} */
+	padding: 14.4%;
+}
+body img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+h1 {
+	color: #fd7c26;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+p {
+	padding: 50px 0;
+	color: #fd7c26;
+	font-size: 20px;
+	display: none;
+}
+.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	padding: 12.5% 0;
+	justify-content: top;
+	align-items: center;
+	flex-direction: column;
+}
+.input-container {
+	position: relative;
+	width: 500px;
+	height: 30px;
+}
+input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 45px;
+	border-radius: 5px;
+	background: #fd7c26;
+	outline: none;
+	border: none;
+	text-indent: 20px;
+}
+
+button {
+	position: absolute;
+	top: 80%;
+	right: 0;
+	translate: -50% -50%;
+	padding: 0 10px;
+	border: none;
+	border-radius: 20px;
+	background-color: #000;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+}
+@media (max-width: 1038px) {
+	.container {
+		padding: 13% 0;
+	}
+}
+@media (max-width: 958px) {
+	.container {
+		padding: 14% 0;
+	}
+}
+@media (max-width: 890px) {
+	.container {
+		padding: 17% 0;
+	}
+}
+@media (max-width: 890px) {
+	.container {
+		padding: 17% 0;
+	}
+}
+
+@media (max-width: 650px) {
+	.container {
+		padding: 20% 0;
+	}
+	.input-container {
+		width: 80%;
+	}
+	input {
+		width: 100%;
+	}
+}
+@media (max-width: 634px) {
+	h1 {
+		font-size: 40px;
+	}
+	.container {
+		padding: 30% 0;
+	}
+}
+@media (max-width: 520px) {
+	h1 {
+		font-size: 36px;
+	}
+}
+@media (max-width: 454px) {
+	h1 {
+		font-size: 32px;
+	}
+	.container {
+		padding: 40% 0;
+	}
+}
+@media (max-width: 400px) {
+	h1 {
+		font-size: 30px;
+	}
+	.container {
+		padding: 47% 0;
+	}
+
+}
+@media (max-width: 386px) {
+	h1 {
+		font-size: 28px;
+	}
+}
+@media (max-width: 364px) {
+	h1 {
+		font-size: 25px;
+	}
+	.input-container {
+		width: 70%;
+	}
+	}
+	
